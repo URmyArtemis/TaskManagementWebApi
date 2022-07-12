@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="WebApiTaskModelStoreContainer" CdmEntityContainer="WebApiTaskEntities">
+    <EntitySetMapping Name="Quotes">
+      <EntityTypeMapping TypeName="WebApiTaskModel.Quote">
+        <MappingFragment StoreEntitySet="Quote">
+          <ScalarProperty Name="QuoteID" ColumnName="QuoteID" />
+          <ScalarProperty Name="Quote_Type" ColumnName="Quote Type" />
+          <ScalarProperty Name="Contact" ColumnName="Contact" />
+          <ScalarProperty Name="Task" ColumnName="Task" />
+          <ScalarProperty Name="Due_Date" ColumnName="Due Date" />
+          <ScalarProperty Name="Task_Type" ColumnName="Task Type" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
